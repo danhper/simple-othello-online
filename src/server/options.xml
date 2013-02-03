@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<options>
+	<option shortname="h" longname="help">
+		<description>Shows help</description>
+	</option>
+	<option shortname="p" longname="port">
+		<description>Selects the port to use for the server.</description>
+		<argument>\d{4,5}</argument>
+	</option>
+	<option longname="host">
+		<description>Selects the host to use for the server.</description>
+		<argument>.*</argument>
+	</option>
+</options>
